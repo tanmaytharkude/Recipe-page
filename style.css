@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container img{
+  background-image: cover;
+  display: block;
+  max-width: 100%;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.recipe {
+  margin-bottom: 40px;
+}
+
+.recipe img {
+  height: 60vh;
+  width: 90vh;
+  margin-bottom: 20px;
+}
+
+.recipe h2 {
+  color: #333;
+}
+
+.recipe h3 {
+  color: #555;
+}
+
+.recipe ul,
+.recipe ol {
+  margin-top: 0;
+}
+
+.recipe ul li,
+.recipe ol li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.option{
+  font-size: 1.25rem;
+  display: flex;
+  gap: 5rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  color: aqua;
+}
+.option i{
+  padding-left: 5rem;
+  color: aqua;
+}
+.option:hover{
+  cursor: pointer;
+}
